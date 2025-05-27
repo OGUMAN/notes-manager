@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Aplicación de notas",
+    "description": "¡Organiza tus notas fácilmente! Administra, crea y accede a ellas en cualquier momento y lugar. Simple, seguro y diseñado para la productividad."
+  },
+  "notes": {
+    "toast": {
+      "added": "¡Nueva nota añadida!",
+      "deleted": "¡Nota eliminada con éxito!",
+      "edited": "¡Nota editada con éxito!",
+      "restored": "¡Nota restaurada con éxito!",
+      "removed": "¡Nota eliminada con éxito!"
+    },
+    "empty": "No hay notas",
+    "count": "{count} notas",
+    "colors": {
+      "red": "Rojo",
+      "green": "Verde",
+      "blue": "Verde",
+      "yellow": "Amarillo",
+      "purple": "Morado",
+      "orange": "Naranja"
+    }
+  },
+  "ui": {
+    "title": "Título",
+    "description": "Descripción",
+    "color": "Color",
+    "submit": "Enviar",
+    "close": "Cerrar"
+  },
+  "home": {
+    "title": "Todas las notas",
+    "add_note": "Agregar nota",
+    "edit_note": "Editar nota",
+    "delete_note": "Eliminar nota"
+  },
+  "trash": {
+    "title": "Papelera",
+    "restore_note": "Restaurar nota",
+    "remove_note": "Eliminar nota"
+  },
+  "settings": {
+    "title": "Configuración",
+    "language": "Idioma",
+    "toasts": "Notificaciones habilitadas"
+  }
+}

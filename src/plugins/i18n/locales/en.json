@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Notes manager",
+    "description": "Stay organized with ease! Manage, create, and access your notes anytime, anywhere. Simple, secure, and designed for productivity."
+  },
+  "notes": {
+    "toast": {
+      "added": "New note added!",
+      "deleted": "Note successfully deleted!",
+      "edited": "Note successfully edited!",
+      "restored": "Note successfully restored!",
+      "removed": "Note successfully removed!"
+    },
+    "empty": "No notes",
+    "count": "{count} notes",
+    "colors": {
+      "red": "Red",
+      "green": "Green",
+      "blue": "Blue",
+      "yellow": "Yellow",
+      "purple": "Purple",
+      "orange": "Orange"
+    }
+  },
+  "ui": {
+    "title": "Title",
+    "description": "Description",
+    "color": "Color",
+    "submit": "Submit",
+    "close": "Close"
+  },
+  "home": {
+    "title": "All notes",
+    "add_note": "Add note",
+    "edit_note": "Edit note",
+    "delete_note": "Delete note"
+  },
+  "trash": {
+    "title": "Trash",
+    "restore_note": "Restore note",
+    "remove_note": "Remove note"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "toasts": "Toasts enabled"
+  }
+}
