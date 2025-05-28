@@ -1,4 +1,5 @@
 <template>
+  <AppMeta />
   <div class="app">
     <AppSidebar />
     <main>
