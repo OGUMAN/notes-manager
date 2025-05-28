@@ -1,8 +1,9 @@
 <template>
-    <SharedNoteListDrag
-      :onReorder="homeStore.reorderNotes"
-      :notes="homeStore.notes"
-      :menu-options="[
+  <SharedNoteListDrag
+    v-show="!homeStore.isLoading"
+    :onReorder="homeStore.reorderNotes"
+    :notes="homeStore.notes"
+    :menu-options="[
         {
           text: $t('home.edit_note'),
           icon: 'mdi-pencil',
@@ -14,15 +15,15 @@
           action: (note: INote) => deleteNote(note),
         },
       ]"
-    />
-    <PagesHomeListAddButton />
-    <PagesHomeModalEdit
-      v-if="currentNote != null"
-      v-model="isEditModalOpen"
-      @after-leave="isEditModalOpen = false"
-      :current-note="currentNote"
-    >
-    </PagesHomeModalEdit>
+  />
+  <PagesHomeListAddButton />
+  <PagesHomeModalEdit
+    v-if="currentNote != null"
+    v-model="isEditModalOpen"
+    @after-leave="isEditModalOpen = false"
+    :current-note="currentNote"
+  >
+  </PagesHomeModalEdit>
   <SharedLoading v-show="homeStore.isLoading" />
 </template>
 
