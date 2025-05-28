@@ -54,14 +54,12 @@ import { useWindowSize } from "@vueuse/core";
 const menuClosed = ref(false);
 const { width } = useWindowSize();
 
-// Automatically close the menu if width < 550
 watch(width, () => {
   if (width.value < 550) {
     menuClosed.value = true;
   }
 });
 
-// Computed property to determine when to show the overlay
 const showOverlay = computed(() => {
   return width.value < 550 && !menuClosed.value;
 });

@@ -74,15 +74,4 @@ watch(
     emit("update:modelValue", { ...localValue });
   }
 );
-
-// Expose validate method
-defineExpose({
-  validate: async () => {
-    const formIsValid = await formRef.value?.validate?.();
-    const colorIsValid = !!localValue.color;
-    const finalIsValid = formIsValid && colorIsValid;
-    internalIsValid.value = finalIsValid; // Update the internal validity
-    return finalIsValid;
-  },
-});
 </script>
