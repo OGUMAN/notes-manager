@@ -19,6 +19,13 @@ export default defineNuxtConfig({
       noExternal: ["vuetify", "vue-toastification"],
     },
     plugins: [vuetify()],
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks: undefined,
+        },
+      },
+    },
   },
   srcDir: "src/",
   fsd: {
