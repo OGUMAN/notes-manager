@@ -22,7 +22,7 @@ const props = defineProps({
   right: -23px;
   top: 50%;
   transform: translateY(-50%);
-  transition: transform 0.4s;
+  transition: transform 0.4s, right 0.2s;
 }
 
 .closed {
