@@ -1,10 +1,43 @@
-# Nuxt Minimal Starter
+# Notes Manager 🗒️
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A minimal yet feature-rich Notes Manager web app built with [Nuxt 3](https://nuxt.com), structured using Feature-Sliced Design (FSD).
+Organize, view, and manage your notes with ease — in multiple languages, with settings and toasts, and even a shopping cart-like experience for selected notes.
 
-## Setup
+**Live Demo:** [https://notes-manager-b334a.web.app/](https://notes-manager-b334a.web.app/)
+**GitHub Repo:** [github.com/OGUMAN/notes-manager](https://github.com/OGUMAN/notes-manager)
 
-Make sure to install dependencies:
+---
+
+## ✨ Features
+
+* 🧠 FSD architecture with `nuxt-fsd` plugin
+* 📦 Notes list with a cart for selected notes
+* ➕ Create, delete, and manage notes with creation date
+* 🌐 Multi-language support via `nuxt/i18n`
+* 💅 Stylish UI with Vuetify 3
+* 🧾 Toast notifications (e.g., success, error messages)
+* ⚙️ Settings page for language and preferences
+* 🖱️ Drag & drop support for reordering notes
+* 📆 Note creation timestamps with `day.js`
+* ☁️ Fully responsive & deployed to Firebase Hosting
+
+---
+
+## 🧱 Tech Stack
+
+* **Nuxt 3** with TypeScript
+* **Vuetify 3** for UI components
+* **Pinia** for state management
+* **vue-toastification** for notifications
+* **VueUse** for composables
+* **nuxt/i18n** for internationalization
+* **day.js** for date formatting
+* **SCSS** for styling
+* **[nuxt-fsd](https://github.com/aabounegm/nuxt-fsd)** for scalable project structure
+
+## 🚀 Getting Started
+
+### Install dependencies
 
 ```bash
 # npm
@@ -20,9 +53,7 @@ yarn install
 bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### Start development server
 
 ```bash
 # npm
@@ -38,9 +69,13 @@ yarn dev
 bun run dev
 ```
 
-## Production
+Open your browser at [http://localhost:3000](http://localhost:3000)
 
-Build the application for production:
+---
+
+## 📦 Production
+
+### Build the app
 
 ```bash
 # npm
@@ -56,7 +91,7 @@ yarn build
 bun run build
 ```
 
-Locally preview production build:
+### Preview production build
 
 ```bash
 # npm
@@ -72,4 +107,4 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+More deployment info: [Nuxt Deployment Docs](https://nuxt.com/docs/getting-started/deployment)
